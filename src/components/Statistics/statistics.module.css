@@ -1,0 +1,29 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(0, 0, 0);
+  width: 300px;
+  text-align: center;
+}
+.title {
+}
+.statlist {
+  width: 100%;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: aqua;
+}
+.label {
+}
+.percentage {
+}
