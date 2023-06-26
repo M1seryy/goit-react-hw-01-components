@@ -3,13 +3,13 @@ import styled from '../TransactionHistory/transactionHistory.module.css';
 import PropTypes from 'prop-types';
 
 const TransactionHistory = ({ data }) => {
-  let { type, amount, currency, id } = data;
-  TransactionHistory.propTypes = {
-    type: PropTypes.string,
-    amount: PropTypes.string,
-    currency: PropTypes.string,
-    id: PropTypes.string,
-  };
+  //   let { type, amount, currency, id } = data;
+  //   TransactionHistory.propTypes = {
+  //     type: PropTypes.string,
+  //     amount: PropTypes.string,
+  //     currency: PropTypes.string,
+  //     id: PropTypes.string,
+  //   };
   return (
     <table className="transaction-history">
       <thead>
